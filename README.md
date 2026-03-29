@@ -1,4 +1,4 @@
-content = r"""# Melbourne Real Estate Market Analysis Dashboard
+# Melbourne Real Estate Market Analysis Dashboard
 
 ## Introduction
 
@@ -111,10 +111,3 @@ Price tends to increase with size and amenities:
 - more car spots increase median price
 
 Most sales occur in **small to medium building sizes**, which suggests that **medium-sized houses or townhouses** may offer a useful balance between cost, space, and market availability.
-
-
-"""
-with open('/mnt/data/README.md', 'w', encoding='utf-8') as f:
-    f.write(content)
-
-print("Created /mnt/data/README.md")
